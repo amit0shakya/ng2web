@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input,Output,EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'homepage',
@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
   styleUrls:['./homepage.css'],
 })
 
-export class home  { }
+export class homepage { 
+    @Input() user="amit";
+    @Output() myeve = new EventEmitter();
+    
+    fireCustomEvent(e){
+        this.myeve.emit(e)
+    }
+}
