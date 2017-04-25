@@ -9,9 +9,11 @@ import { Gallery }  from './gallery/gallery';
 
 
 @NgModule({
-  imports:      [ BrowserModule,HttpModule, AppRoutingModule],
+  imports:      [ BrowserModule, AppRoutingModule],
   declarations: [ AppComponent, Gallery],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  providers:[],
+  exports:[]
 })
 
 export class AppModule { }

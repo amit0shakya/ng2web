@@ -5,12 +5,14 @@ import {Gallery} from './gallery/gallery';
 import {AppComponent} from './app.component';
 
 export const ROUTE_PROVIDER:Routes=[
-{path:'gallery',component:Gallery}, {path:'',component:AppComponent}
+    {path:'',redirectTo:'home',pathMatch:'full'},
+    {path:'gallery',component:Gallery}, 
+    {path:'home',component:AppComponent}
 ];
 
 @NgModule({
-    imports: [ RouterModule.forRoot(ROUTE_PROVIDER) ],
-    exports: [ RouterModule ]
+    imports: [ RouterModule.forRoot(ROUTE_PROVIDER)],
+    exports: [ RouterModule ],
 })
 
 export class AppRoutingModule{}
