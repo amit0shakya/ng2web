@@ -1,0 +1,10 @@
+<div class="nav">
+    <ul>
+        <li><a routerLink='home'>HOME</a></li>
+        <li><a routerLink='about'>ABOUT</a></li>
+        <li (click)="GetRandNo()"><a routerLink='product/{{randno}}'>PRODUCT</a></li>
+    </ul>
+</div> 
+
+
+  <router-outlet></router-outlet>

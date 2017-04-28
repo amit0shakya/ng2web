@@ -1,18 +1,15 @@
-import { NgModule } from '@angular/core';
+import { NgModule ,ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AppComponent }  from './app.component';
 import {Newpage} from './newpage';
+import {Indexpage} from './indexpage';
+import {Product} from './product';
 
-const routes:Routes=[
+export const routes:Routes=[
     { path: '', redirectTo:'home', pathMatch:'full' },
-    {path:'home', component:AppComponent},
-    {path:'other', component:Newpage}
+    {path:'home', component:Indexpage},
+    {path:'about', component:Newpage},
+    {path:'product/:id', component:Product}
 ];
 
-@NgModule({
-    imports:[RouterModule.forRoot(routes)],
-    exports:[RouterModule]
-})
-
-export class Fuck{}
+export const AppRouter: ModuleWithProviders = RouterModule.forRoot(routes)

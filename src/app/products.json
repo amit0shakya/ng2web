@@ -1,0 +1,50 @@
+[{"title":"Motorola Mobile phone",
+"producttype":"phone",
+"company":"motorola",
+"cost":"12000"},
+
+{"title":"Samsung Mobile phone",
+"producttype":"phone",
+"company":"samsung",
+"cost":"7000"},
+
+{"title":"Nikon DSLR",
+"producttype":"camera",
+"company":"Nikon",
+"cost":"25000"},
+
+{"title":"Fastrack",
+"producttype":"watch",
+"company":"fastrack",
+"cost":"2500"},
+
+{"title":"Casio Digital Watch",
+"producttype":"watch",
+"company":"Casio",
+"cost":"5000"},
+
+{"title":"Samsung Smart watch",
+"producttype":"watch",
+"company":"samsung",
+"cost":"15000"},
+
+{"title":"Lenovo power bank",
+"producttype":"power bank",
+"company":"lenovo",
+"cost":"3200"},
+
+{"title":"Rayban",
+"producttype":"Sunglass",
+"company":"rayban",
+"cost":"1800"},
+
+{"title":"Axe DeoSpray",
+"producttype":"Deodrant",
+"company":"Axe",
+"cost":"185"},
+
+
+{"title":"Samsung Tv",
+"producttype":"Samsung Digital LED",
+"company":"Samsung",
+"cost":"28000"}]
