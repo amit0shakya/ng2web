@@ -16,8 +16,8 @@ export class home  {
     
     }
     
-    track(){
-    this.userlog.log()
+    addval(param:String){
+    this.userlog.log(param)
     }
     
     ngOnInit(){

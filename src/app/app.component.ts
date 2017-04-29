@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { home } from './homepage/homepage';
 
+
+
 @Component({
   selector: 'my-app',
   template: `
@@ -15,9 +17,5 @@ import { home } from './homepage/homepage';
 export class AppComponent  { 
 name = 'Angular'; 
 users=['amit','sumit','rakesh'];
-
-
-
-
 
 }
